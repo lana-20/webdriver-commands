@@ -60,10 +60,10 @@ When I have one browser window open, both commands work in a similar way, they c
   - __quit()__ command also gets the internal driver process killed in the background.
     - closes multiple browser windows
 
-When I click on a link on a page, the browser opens another Child window When I perform driver.close() only the Parent window - original window that got opened with the URL - get closed. The Child window - window triggered by the link in the Parent window - stays open. 
+When I click on a link on a page, the browser opens another Child window When I perform driver.close() only the Parent window - original window that got opened with the URL - gets closed. The Child window - window triggered by the link in the Parent window - stays open. 
 My browser focus stays on the Parent app window. even though a statement (link click) opens another app in another browser window, still my driver focus is on the first Parent app. The focus of the driver does not directly shift to the second app. The browser window, on which the driver is focused, that particular window gets closed with __close()__ command. __close()_ command closes only one browser windows at a time. If I have two windows open, it will not close both. It will close only one (Parent window), on which the driver is focused. Whether I have 10 or 50 windows open, it closes only one.
 
-Internally, for each browser window a process ID gets created as soon as I initialize the process. Eg, some prcoesses may be created by the OS. When I launch my browser from the device, there is a process created by the OS. Similarily, when I open another tab, there is another process. Another tab created yet another process, ans so on. Eg, for evey action Windows creates a process.
+Internally, for each browser window a process ID gets created as soon as I initialize the process. Eg, some prcoesses may be created by the OS. When I launch my browser from the device, there is a process created by the OS. Similarily, when I open another tab, there is another process. Another tab creates yet another process, ans so on. Eg, for evey action Windows creates a process.
 
 __quit()__ command internally kills the driver processes, which are not physically visible.That's the reason it can close/kill __all__ the browser windows.
 
@@ -90,6 +90,11 @@ When I enter one URL in the browser and then another URL in the same browser, th
 Through 'driver' instance I can access Application-Level, Browser and Navigational Commands.
 
 Only the Conditional Commands must be access through the WebElement.
+
+
+__What's the Difference between find_element() and find_elements()?__
+
+
 
 #TODO
 
