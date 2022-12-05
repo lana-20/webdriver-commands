@@ -92,9 +92,9 @@ Through 'driver' instance I can access Application-Level, Browser and Navigation
 Only the Conditional Commands must be access through the WebElement.
 
 
-__What's the Difference between find_element() and find_elements()?__
+[__What's the Difference between find_element() and find_elements()?__](https://github.com/lana-20/webdriver-commands/blob/main/find_element()%20vs%20find_elements().pdf)
 
-
+[__What's the Difference between .text and .get_attribute('value')?__](TBD)
 
 #TODO
 
