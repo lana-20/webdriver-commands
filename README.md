@@ -94,7 +94,9 @@ Only the Conditional Commands must be access through the WebElement.
 
 [__What's the Difference between find_element() and find_elements()?__](https://github.com/lana-20/webdriver-commands/blob/main/find_element()%20vs%20find_elements().pdf)
 
-[__What's the Difference between .text and .get_attribute('value')?__](TBD)
+__.text__ extracts/gets the value of an element. There's another method __.get_attribute('value')__.
+
+[__What's the Difference between .text and .get_attribute('value')?__](https://github.com/lana-20/webdriver-commands/blob/main/_text%20vs%20.get_attribute().pdf)
 
 #TODO
 
