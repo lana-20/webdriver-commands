@@ -98,7 +98,6 @@ __.text__ extracts/gets the value of an element. There's another method __.get_a
 
 [__What's the Difference between .text and .get_attribute('value')?__](https://github.com/lana-20/webdriver-commands/blob/main/_text%20vs%20.get_attribute().pdf)
 
-#TODO
 
-__5) Wait Commands__
+__5) [Wait Commands](https://github.com/lana-20/webdriver-commands/blob/main/Wait%20Commands.pdf)__
 
